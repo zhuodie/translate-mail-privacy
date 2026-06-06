@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Translate Mail - Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.2em; margin-top: 2em; }
+  .lang-switch { text-align: right; margin-bottom: 20px; }
+  .lang-switch a { margin-left: 12px; color: #007AFF; text-decoration: none; }
+  .section { margin-bottom: 1.5em; }
+  footer { margin-top: 3em; color: #999; font-size: 0.85em; border-top: 1px solid #eee; padding-top: 1em; }
+</style>
+</head>
+<body>
+
+<div class="lang-switch">
+  <a href="#" onclick="show('zh')">中文</a>
+  <a href="#" onclick="show('en')">English</a>
+</div>
+
+<div id="zh">
+<h1>译函 (Translate Mail) — 隐私政策</h1>
+<p><strong>生效日期：2026 年 6 月 6 日</strong></p>
+
+<div class="section">
+<h2>我们不收集任何数据</h2>
+<p>译函是一款完全本地运行的 macOS 邮件翻译工具。我们不收集、不存储、不传输任何用户个人信息或邮件内容。</p>
+</div>
+
+<div class="section">
+<h2>邮件内容</h2>
+<p>译函通过 macOS 自动化接口读取你在 Apple Mail 中选中的邮件内容，仅用于翻译和分析。邮件内容不会被发送到我们的服务器，因为我们没有服务器。</p>
+</div>
+
+<div class="section">
+<h2>AI 翻译服务</h2>
+<p>当使用 AI 大模型翻译时，邮件内容会被发送到你自行配置的第三方 AI 服务商（如 Moonshot、DeepSeek、Xiaomi MiMo 等）。这些服务商的数据处理受其各自隐私政策约束。译函不经手、不中转这些数据。</p>
+</div>
+
+<div class="section">
+<h2>系统翻译</h2>
+<p>当使用 macOS 系统翻译时，翻译完全在本地离线完成，不涉及任何网络传输。</p>
+</div>
+
+<div class="section">
+<h2>API Key 存储</h2>
+<p>你配置的 AI 服务商 API Key 以 AES-GCM 加密方式存储在本地（~/Library/Application Support/译函/），不会上传到任何地方。</p>
+</div>
+
+<div class="section">
+<h2>联系我们</h2>
+<p>如有疑问，请联系：<a href="mailto:chenzhuo@imin.sg">chenzhuo@imin.sg</a></p>
+</div>
+</div>
+
+<div id="en" style="display:none">
+<h1>Translate Mail — Privacy Policy</h1>
+<p><strong>Effective Date: June 6, 2026</strong></p>
+
+<div class="section">
+<h2>We Do Not Collect Any Data</h2>
+<p>Translate Mail is a fully local macOS email translation tool. We do not collect, store, or transmit any personal information or email content.</p>
+</div>
+
+<div class="section">
+<h2>Email Content</h2>
+<p>Translate Mail reads the selected email in Apple Mail through macOS automation APIs, solely for translation and analysis. Email content is never sent to our servers — we have no servers.</p>
+</div>
+
+<div class="section">
+<h2>AI Translation Services</h2>
+<p>When using AI translation, email content is sent to third-party AI providers (such as Moonshot, DeepSeek, Xiaomi MiMo, etc.) that you configure yourself. Data handling by these providers is governed by their respective privacy policies. Translate Mail does not relay or store this data.</p>
+</div>
+
+<div class="section">
+<h2>System Translation</h2>
+<p>When using macOS system translation, all processing is done locally and offline, with no network transmission involved.</p>
+</div>
+
+<div class="section">
+<h2>API Key Storage</h2>
+<p>API keys you configure are stored locally with AES-GCM encryption (~/Library/Application Support/译函/) and are never uploaded anywhere.</p>
+</div>
+
+<div class="section">
+<h2>Contact Us</h2>
+<p>For questions, contact: <a href="mailto:chenzhuo@imin.sg">chenzhuo@imin.sg</a></p>
+</div>
+</div>
+
+<footer>© 2026 Translate Mail (译函)</footer>
+
+<script>
+function show(lang) {
+  document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+  document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+}
+</script>
+</body>
+</html>
