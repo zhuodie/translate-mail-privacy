@@ -92,6 +92,7 @@ function show(lang) {
   document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
   document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
 }
+show((navigator.language || '').toLowerCase().startsWith('zh') ? 'zh' : 'en');
 </script>
 </body>
 </html>
